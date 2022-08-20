@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Rock, Paper, Scissors!</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <h1>Rock, Paper, Scissors</h1>
+    <h2>
+      Subheading intro to the game with some longer text that will need to be
+      invented then formatted
+    </h2>
+    <h3 class="status">Time to play...</h3>
+    <div class="scoreboard game-sides">
+      <div class="human-player-side display-panel">
+        <div id="human-player">You!</div>
+        <div id="human-score">0</div>
+        <div class="gamepiece-placeholder-human">Make a selection</div>
+      </div>
+      <div class="computer-player-side display-panel">
+        <div id="computer-player">The Machine</div>
+        <div id="computer-score">0</div>
+        <div class="gamepiece-placeholder-computer">Thinking...</div>
+      </div>
+    </div>
+    <div class="play-buttons">
+      <button id="rock" class="action-button hidden">Rock</button>
+      <button id="paper" class="action-button hidden">Paper</button>
+      <button id="scissors" class="action-button hidden">Scissors</button>
+    </div>
+    <button class="battle">Let's do this!</button>
+    <button class="hidden play-again">Play again?</button>
+
+    <script src="./gamescript.js" async defer></script>
+  </body>
+</html>

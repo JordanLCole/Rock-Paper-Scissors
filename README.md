@@ -1,2 +1,2 @@
-# Rock-Paper-Scissors
-This is the game rock, paper, scissors.
+# RPS_Brutal
+Rock, Paper, Scissors in the Console
