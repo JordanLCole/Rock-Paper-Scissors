@@ -61,6 +61,8 @@ function Victory(winner) {
 //initialise the game
 initialiseGame.addEventListener("click", function () {
   revealButtons();
+  computerChoiceDisplay.textContent = "Waiting for input";
+  humanPlayerChoiceDisplay.textContent = "Make your selection";
 });
 
 playAgain.addEventListener("click", function () {
@@ -105,7 +107,7 @@ function playTheGame(playerChoice, computerChoice) {
     initialiseGame.textContent = "Next Round?";
     statusMessage.textContent = "You win! Keep going...";
     if (playerScore == 5) {
-      Victory("You");
+      Victory("The Player");
     }
   } else {
     computerScore++;
